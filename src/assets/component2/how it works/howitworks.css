@@ -78,6 +78,9 @@ input{
     outline: none;
     width: 70%;
 }
+.carouselContainer{
+    background-color: red;
+}
 #sub{
     border: 1px solid rgba(209,209,214,1);
     border-radius: 5px;
@@ -106,7 +109,7 @@ span{
     text-align: end;
     padding-right: 10px;
 }
-#mine{
+.mine{
     margin-top: 30px;
 }
 #sub p span{
@@ -153,6 +156,7 @@ span{
     /* z-index: 10; */
     border-radius: 16px;
     /* height: 700px; */
+    height: 500px;
 }
 #vid img{
     border-radius: 16px;
@@ -170,4 +174,16 @@ span{
     font-weight: 700;
     line-height: 26px;
     text-align: center;
+}
+@media screen and (max-width:380px) {
+    #vid{
+        height: 440px;
+    }
+    
+}
+@media screen and (max-width:321px) {
+    #vid{
+        height: 400px;
+    }
+    
 }
