@@ -39,6 +39,12 @@
     height: 44px;
     width: 123px;
 }
+#image #idm{
+    width: 44px;
+    height: 44px;
+    padding:4px;
+    margin-top: 10px;
+}
 #text{
     /* padding: 16px 32px; */
     width: 90%;

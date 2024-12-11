@@ -9,7 +9,7 @@ const Features = () => {
     <>
     
     <div id="feat">
-    <h4>Features</h4>
+    <h4 id='h4'>Features</h4>
         <TheFeat text={"P0ll"}span={"Voting:"} img={img} text2={"Create your own polls, cast your vote, join the conversation and make an impact"}/>
         <TheFeat text={"Event"}span={"Booking:"} img={img2} text2={"“Discover, organize, and register for local events. Stay connected!”"}/>
         <TheFeat text={"Project"}span={"Funding:"} img={img3} text2={"Bring your idea to life, get funding and donate to support causes that matters to you"}/>
