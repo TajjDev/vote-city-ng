@@ -450,7 +450,7 @@ const AutoSwipeCarousel = ({ images }) => {
 
             export default function Minee() {
   const images = [
-    imageone,   imagetwo,imagethree,imagefour,imagefive
+    imageone,imagethree,imagefour,imagetwo,imagefive
             ];
 
             return (
