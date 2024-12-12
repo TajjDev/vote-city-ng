@@ -4,12 +4,13 @@
     /* padding: 32px; */
     display: flex;
     font-family: poppins;
-    padding: 0 30px;
+
     flex-direction: column;
     justify-self: center;
 }
     #carry{
-    width: 85%;
+    width: 100%;
+    padding: 0 30px;
     display: flex;
     font-family: poppins;
     flex-direction: column;
