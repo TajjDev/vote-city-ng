@@ -75,7 +75,7 @@ const HowItWorks = () => {
           <p> <span>subscribe</span></p>
         </div>
         <h3 id="yy">Contact Information</h3>
-        <p id='ip'> <img src={envelope} alt="" />: Votecityng@gemail.com</p>
+        <p id='ip'> <img src={envelope} alt="" />: Votecityng@gmail.com</p>
         <p id='ip'><img src={facebook} alt="" />: votecityng</p>
         <p id="ip"><img src={twitter} alt="" />: votecityng</p>
         <p id="ip"><img src={inst} alt="" />: votecityng</p>
