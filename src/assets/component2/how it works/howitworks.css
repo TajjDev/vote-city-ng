@@ -171,7 +171,7 @@ span{
     /* z-index: 10; */
     border-radius: 16px;
     /* height: 700px; */
-    height: 500px;
+    height: 530px;
 }
 #vid img{
     border-radius: 16px;
@@ -237,13 +237,13 @@ h5 a,.popup p a{
 }
 @media screen and (max-width:380px) {
     #vid{
-        height: 440px;
+        height: 470px;
     }
     
 }
 @media screen and (max-width:321px) {
     #vid{
-        height: 400px;
+        height: 430px;
     }
     
 }
