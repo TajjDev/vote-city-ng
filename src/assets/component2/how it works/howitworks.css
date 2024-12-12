@@ -7,7 +7,7 @@
     /* flex-direction: column; */
     /* justify-self: center; */
 }
-#carry{
+    #carry{
     width: 85%;
     display: flex;
     font-family: poppins;
@@ -185,7 +185,7 @@ span{
     text-align: center;
     padding-left: 20px;
     border: none;
-    padding-bottom: 40px;
+    /* padding-bottom: 40px; */
 
 }
 #priv .btn{

@@ -7,7 +7,7 @@ const About = () => {
   const [isExpandedM, setIsExpandedM] = useState(false);
   
   const longTextM = "Our Mission is to empower users with easy-to-use,monetizable, and reliable services."
-  const longText = "Our vision is to become the leading e-service platform for voting, ticketing and fundraising in Africa, driving inovation, transparency and finacial inclusion.";
+  const longText = "Our vision is to become the leading e-service platform for voting, ticketing and fundraising in Africa, driving innovation, transparency and finacial inclusion.";
   const toggleReadMore = () => {
     setIsExpanded(!isExpanded);
   };
