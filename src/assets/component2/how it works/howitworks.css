@@ -241,9 +241,9 @@ h5 a,.popup p a{
     }
     
 }
-@media screen and (max-width:321px) {
+@media screen and (max-width:301px) {
     #vid{
-        height: 460px;
+        height: 465px;
     }
     
 }
