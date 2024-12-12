@@ -18,7 +18,7 @@ const AutoSwipeCarousel = ({ images }) => {
     }, [images.length]);
 
     return (
-    <>
+    <div id="vi">
             <p id="men">Some InApp <span>Views</span></p>
             <div id="vid" style={styles.carouselContainer}>
                 {/* Image Display */}
@@ -47,13 +47,13 @@ const AutoSwipeCarousel = ({ images }) => {
                     ))}
                 </div>
             </div>
-            </>
+            </div>
             );
 };
 
             const styles = {
                 carouselContainer: {
-                width: "75%",
+                width: "70%",
             // Adjust to your preferred size
             overflow: "hidden",
             display:"flex",
@@ -74,7 +74,364 @@ const AutoSwipeCarousel = ({ images }) => {
             height: "100%",
    // objectFit: "cover",
  },
-             dotsContainer: {
+            // carouselContainer: {
+                // width: "70%",
+            // height: "530px", // Adjust to your preferred size
+            // overflow: "hidden",
+            // display:"flex",
+            // marginBottom:"60px",
+            // justifySelf:"center",
+            // position: "relative",
+//  },
+            // imageContainer: {
+                // position: "absolute",
+            // top: 0,
+            // left: 0,
+            // width: "99%",
+            // height: "99.7%",
+//  },
+            // image: {
+                // width: "100%",
+            // height: "100%",
+//    objectFit: "cover",
+//  },
+            // carouselContainer: {
+                // width: "70%",
+            // height: "530px", // Adjust to your preferred size
+            // overflow: "hidden",
+            // display:"flex",
+            // marginBottom:"60px",
+            // justifySelf:"center",
+            // position: "relative",
+//  },
+            // imageContainer: {
+                // position: "absolute",
+            // top: 0,
+            // left: 0,
+            // width: "99%",
+            // height: "99.7%",
+//  },
+            // image: {
+                // width: "100%",
+            // height: "100%",
+//    objectFit: "cover",
+//  },
+            // carouselContainer: {
+                // width: "70%",
+            // height: "530px", // Adjust to your preferred size
+            // overflow: "hidden",
+            // display:"flex",
+            // marginBottom:"60px",
+            // justifySelf:"center",
+            // position: "relative",
+//  },
+            // imageContainer: {
+                // position: "absolute",
+            // top: 0,
+            // left: 0,
+            // width: "99%",
+            // height: "99.7%",
+//  },
+            // image: {
+                // width: "100%",
+            // height: "100%",
+//    objectFit: "cover",
+//  },
+            // carouselContainer: {
+                // width: "70%",
+            // height: "530px", // Adjust to your preferred size
+            // overflow: "hidden",
+            // display:"flex",
+            // marginBottom:"60px",
+            // justifySelf:"center",
+            // position: "relative",
+//  },
+            // imageContainer: {
+                // position: "absolute",
+            // top: 0,
+            // left: 0,
+            // width: "99%",
+            // height: "99.7%",
+//  },
+            // image: {
+                // width: "100%",
+            // height: "100%",
+//    objectFit: "cover",
+//  },
+            // carouselContainer: {
+                // width: "70%",
+            // height: "530px", // Adjust to your preferred size
+            // overflow: "hidden",
+            // display:"flex",
+            // marginBottom:"60px",
+            // justifySelf:"center",
+            // position: "relative",
+//  },
+            // imageContainer: {
+                // position: "absolute",
+            // top: 0,
+            // left: 0,
+            // width: "99%",
+            // height: "99.7%",
+//  },
+            // image: {
+                // width: "100%",
+            // height: "100%",
+//    objectFit: "cover",
+//  },
+            // carouselContainer: {
+                // width: "70%",
+            // height: "530px", // Adjust to your preferred size
+            // overflow: "hidden",
+            // display:"flex",
+            // marginBottom:"60px",
+            // justifySelf:"center",
+            // position: "relative",
+//  },
+            // imageContainer: {
+                // position: "absolute",
+            // top: 0,
+            // left: 0,
+            // width: "99%",
+            // height: "99.7%",
+//  },
+            // image: {
+                // width: "100%",
+            // height: "100%",
+//    objectFit: "cover",
+//  },
+            // carouselContainer: {
+                // width: "70%",
+            // height: "530px", // Adjust to your preferred size
+            // overflow: "hidden",
+            // display:"flex",
+            // marginBottom:"60px",
+            // justifySelf:"center",
+            // position: "relative",
+//  },
+            // imageContainer: {
+                // position: "absolute",
+            // top: 0,
+            // left: 0,
+            // width: "99%",
+            // height: "99.7%",
+//  },
+            // image: {
+                // width: "100%",
+            // height: "100%",
+//    objectFit: "cover",
+//  },
+            // carouselContainer: {
+                // width: "70%",
+            // height: "530px", // Adjust to your preferred size
+            // overflow: "hidden",
+            // display:"flex",
+            // marginBottom:"60px",
+            // justifySelf:"center",
+            // position: "relative",
+//  },
+            // imageContainer: {
+                // position: "absolute",
+            // top: 0,
+            // left: 0,
+            // width: "99%",
+            // height: "99.7%",
+//  },
+            // image: {
+                // width: "100%",
+            // height: "100%",
+//    objectFit: "cover",
+//  },
+            // carouselContainer: {
+                // width: "70%",
+            // height: "530px", // Adjust to your preferred size
+            // overflow: "hidden",
+            // display:"flex",
+            // marginBottom:"60px",
+            // justifySelf:"center",
+            // position: "relative",
+//  },
+            // imageContainer: {
+                // position: "absolute",
+            // top: 0,
+            // left: 0,
+            // width: "99%",
+            // height: "99.7%",
+//  },
+            // image: {
+                // width: "100%",
+            // height: "100%",
+//    objectFit: "cover",
+//  },
+            // carouselContainer: {
+                // width: "70%",
+            // height: "530px", // Adjust to your preferred size
+            // overflow: "hidden",
+            // display:"flex",
+            // marginBottom:"60px",
+            // justifySelf:"center",
+            // position: "relative",
+//  },
+            // imageContainer: {
+                // position: "absolute",
+            // top: 0,
+            // left: 0,
+            // width: "99%",
+            // height: "99.7%",
+//  },
+            // image: {
+                // width: "100%",
+            // height: "100%",
+//    objectFit: "cover",
+//  },
+            // carouselContainer: {
+                // width: "70%",
+            // height: "530px", // Adjust to your preferred size
+            // overflow: "hidden",
+            // display:"flex",
+            // marginBottom:"60px",
+            // justifySelf:"center",
+            // position: "relative",
+//  },
+            // imageContainer: {
+                // position: "absolute",
+            // top: 0,
+            // left: 0,
+            // width: "99%",
+            // height: "99.7%",
+//  },
+            // image: {
+                // width: "100%",
+            // height: "100%",
+//    objectFit: "cover",
+//  },
+            // carouselContainer: {
+                // width: "70%",
+            // height: "530px", // Adjust to your preferred size
+            // overflow: "hidden",
+            // display:"flex",
+            // marginBottom:"60px",
+            // justifySelf:"center",
+            // position: "relative",
+//  },
+            // imageContainer: {
+                // position: "absolute",
+            // top: 0,
+            // left: 0,
+            // width: "99%",
+            // height: "99.7%",
+//  },
+            // image: {
+                // width: "100%",
+            // height: "100%",
+//    objectFit: "cover",
+//  },
+            // carouselContainer: {
+                // width: "70%",
+            // height: "530px", // Adjust to your preferred size
+            // overflow: "hidden",
+            // display:"flex",
+            // marginBottom:"60px",
+            // justifySelf:"center",
+            // position: "relative",
+//  },
+            // imageContainer: {
+                // position: "absolute",
+            // top: 0,
+            // left: 0,
+            // width: "99%",
+            // height: "99.7%",
+//  },
+            // image: {
+                // width: "100%",
+            // height: "100%",
+//    objectFit: "cover",
+//  },
+            // carouselContainer: {
+                // width: "70%",
+            // height: "530px", // Adjust to your preferred size
+            // overflow: "hidden",
+            // display:"flex",
+            // marginBottom:"60px",
+            // justifySelf:"center",
+            // position: "relative",
+//  },
+            // imageContainer: {
+                // position: "absolute",
+            // top: 0,
+            // left: 0,
+            // width: "99%",
+            // height: "99.7%",
+//  },
+            // image: {
+                // width: "100%",
+            // height: "100%",
+//    objectFit: "cover",
+//  },
+            // carouselContainer: {
+                // width: "70%",
+            // height: "530px", // Adjust to your preferred size
+            // overflow: "hidden",
+            // display:"flex",
+            // marginBottom:"60px",
+            // justifySelf:"center",
+            // position: "relative",
+//  },
+            // imageContainer: {
+                // position: "absolute",
+            // top: 0,
+            // left: 0,
+            // width: "99%",
+            // height: "99.7%",
+//  },
+            // image: {
+                // width: "100%",
+            // height: "100%",
+//    objectFit: "cover",
+//  },
+            // carouselContainer: {
+                // width: "70%",
+            // height: "530px", // Adjust to your preferred size
+            // overflow: "hidden",
+            // display:"flex",
+            // marginBottom:"60px",
+            // justifySelf:"center",
+            // position: "relative",
+//  },
+            // imageContainer: {
+                // position: "absolute",
+            // top: 0,
+            // left: 0,
+            // width: "99%",
+            // height: "99.7%",
+//  },
+            // image: {
+                // width: "100%",
+            // height: "100%",
+//    objectFit: "cover",
+//  },
+            // carouselContainer: {
+                // width: "230px",
+            // height: "470px", // Adjust to your preferred size
+            // overflow: "hidden",
+            // display:"flex",
+            // marginBottom:"60px",
+            // justifySelf:"center",
+            // position: "relative",
+//  },
+            // imageContainer: {
+                // position: "absolute",
+            // top: 0,
+            // left: 0,
+            // width: "99%",
+            // height: "99.7%"
+//  },
+            // image: {
+                // width: "100%",
+            // height: "100%",
+//    objectFit: "cover",
+//  },
+            dotsContainer: {
                 position: "absolute",
             bottom: "10px",
             left: "50%",
@@ -98,8 +455,8 @@ const AutoSwipeCarousel = ({ images }) => {
             ];
 
             return (
-            <div>
-{/*                 <h1>Auto-Swiping Carousel</h1> */}
+            <div id="view">
+                {/* <h1>Auto-Swiping Carousel</h1> */}
                 <AutoSwipeCarousel images={images} />
             </div>
             );
