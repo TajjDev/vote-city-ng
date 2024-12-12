@@ -456,7 +456,7 @@ const AutoSwipeCarousel = ({ images }) => {
 
             return (
             <div>
-                <h1>Auto-Swiping Carousel</h1>
+{/*                 <h1>Auto-Swiping Carousel</h1> */}
                 <AutoSwipeCarousel images={images} />
             </div>
             );
