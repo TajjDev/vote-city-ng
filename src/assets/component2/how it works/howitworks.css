@@ -46,6 +46,9 @@
 #view{
     width: 100%;
     padding: 0 30px;
+    display: flex;
+flex-direction: column;
+justify-content: center;
 }
 #work h3{
     text-align: center;
