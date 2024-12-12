@@ -20,7 +20,7 @@
     width: 100%;
     padding: 0 30px;
     display:flex;
-    flex-direction:grid;
+    flex-direction:column;
 }
 #work p,#work h3{
     width: 100%;
