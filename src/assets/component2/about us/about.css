@@ -48,15 +48,15 @@
     font-family: poppins;
     margin-left: 15px;
     font-weight: 700;
-    font-size: 15px;
+    font-size: 14px;
 }
 #image #im1{
     height: 44px;
     width: 123px;
 }
 #image #idm{
-    width: 44px;
-    height: 44px;
+    width: 40px;
+    height: 40px;
     padding:4px;
     margin-top: 5px;
     margin-left: 30px;
@@ -156,6 +156,10 @@
     }
 }
 @media screen and (max-width:320px) {
+    #image p{
+        font-size: 12px;
+        margin-left: 18px;
+    }
     #text p{
         font-size: 12px;
         text-shadow: 1px 1px #000;
@@ -173,8 +177,22 @@
         font-weight: 700;
         line-height: 45px;
     }
+    #image #idm{
+        width: 35px;
+        height: 35px;
+        padding:4px;
+        margin-top: 5px;
+        margin-left: 30px;
+    }
 }
 @media screen and (max-width:295px) {
+    #image #idm{
+        width: 32px;
+        height: 32px;
+        padding:4px;
+        margin-top: 5px;
+        margin-left: 30px;
+    }
     #text p{
         font-size: 12px;
         text-shadow: 1px 1px #000;
