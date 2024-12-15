@@ -20,12 +20,12 @@ const HowItWorks = () => {
   const [isOpen, setIsOpen] = useState(false)
   const handleOpen = () => {
     setIsOpen(true)
-    document.body.style.overflowY = "hidden"
+    // document.body.style.overflowY = "hidden"
     // document.body.style.filter = "blur(2px)"
   }
   const handleClose = () => {
     setIsOpen(false)
-    document.body.style.overflowY = "auto"
+    // document.body.style.overflowY = "auto"
   }
   const [isOpenn, setIsOpenn] = useState(false)
   const handleOpenn = () => {
@@ -39,7 +39,7 @@ const HowItWorks = () => {
 
   return (
 
-    <div style={{overflowY:isOpen }} id='work'>
+    <div style={{overflowY:isOpen ? "hidden" : "auto"}} id='work'>
       <div id="carry">
         <h3>How it <span>Works</span></h3>
         <p>VoteCity is easy to use! Here’s how you can start making a difference in your community:</p>
