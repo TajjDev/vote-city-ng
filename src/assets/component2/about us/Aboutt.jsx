@@ -1,7 +1,7 @@
 import React from 'react'
 import './about.css'
 import image from '/src/assets/vote.png'
-import image2 from '/src/assets/votepic.jpg'
+import image2 from '/src/assets/voteimg.png'
 import Button from '../join/Button'
 // import Button from '../../component/join/Button'
 // import image1 from '/src/assets/votepic.jpg'
@@ -14,7 +14,7 @@ const Aboutt = () => {
       <div id="image">
         {/* <img id='im' src={image1} alt="" /> */}
         <img id='idm' src={image2} alt="" />
-        <img id='im1' src={image} alt="" />
+        <p>VOTECITY</p>
       </div>
       <div id="text">
         <h1>Join the Movement with Vote<span>City</span></h1>

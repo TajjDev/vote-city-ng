@@ -18,9 +18,7 @@
 }
 #vi{
     width: 100%;
-    padding: 0 30px;
-    display:flex;
-    flex-direction:column;
+    /* padding: 0 30px; */
 }
 #work p,#work h3{
     width: 100%;
@@ -50,7 +48,7 @@
 #view{
     width: 100%;
     padding: 0 30px;
-    display: flex;
+    display: grid;
 flex-direction: column;
 justify-content: center;
 }
@@ -238,6 +236,7 @@ h5 a,.popup p a{
 @media screen and (max-width:380px) {
     #vid{
         height: 490px;
+        transform: b;
     }
     
 }

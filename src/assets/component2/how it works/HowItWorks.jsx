@@ -21,6 +21,7 @@ const HowItWorks = () => {
   const handleOpen = () => {
     setIsOpen(true)
     document.body.style.overflowY = "hidden"
+    // document.body.style.filter = "blur(2px)"
   }
   const handleClose = () => {
     setIsOpen(false)
@@ -89,6 +90,8 @@ const HowItWorks = () => {
         <div style={{overflowY:isOpen ?"auto":""}} id="priv">
           <button onClick={handleOpen}>Privacy Policy </button>
           <button onClick={handleOpenn}>Terms & Conditions </button>
+          <p style={{textAlign:"center",marginTop:"20px"}}>Copyright © Votecity Ltd <br /> All rights reserved
+          </p>
           <br /><br />
           {isOpen && (
             <div className="popup">

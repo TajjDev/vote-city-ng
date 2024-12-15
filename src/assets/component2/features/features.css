@@ -39,9 +39,9 @@ h3 span{
     height: 100%;
 }
 #feat{
-     display: flex;
- flex-direction: column;
- justify-self: center;
- width:100%;
- padding: 0 30px;
+    display: flex;
+    flex-direction: column;
+    justify-self: center;
+    width:100%;
+    padding: 0 30px;
 }
